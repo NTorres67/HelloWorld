@@ -92,18 +92,18 @@ namespace HelloWorld
             //Console.WriteLine("Phil said,\"You've got red on you.\"");//Writing QUOTES
 
             ////Part eleven conditional examples
-            string city1 = "Vesuvius";
-            string city2 = "Nola";
-            string city3 = "Nuceria";
-            int city1Distance, city2Distance, city3Distance;//allowed to put in one line as long a amount is not assigned
+            ////string city1 = "Vesuvius";
+            ////string city2 = "Nola";
+            ////string city3 = "Nuceria";
+            ////int city1Distance, city2Distance, city3Distance;//allowed to put in one line as long a amount is not assigned
 
-            //Solicit user input examples
-            Console.WriteLine("What is the distance to {0}", city1);
-            city1Distance = int.Parse(Console.ReadLine());//converts string to int
-            Console.WriteLine("What is the distance to " + city2 + "?");
-            city2Distance = int.Parse(Console.ReadLine());
-            Console.WriteLine("What is the distance to Nuceria?");
-            city3Distance = int.Parse(Console.ReadLine());
+            //////Solicit user input examples
+            ////Console.WriteLine("What is the distance to {0}", city1);
+            ////city1Distance = int.Parse(Console.ReadLine());//converts string to int
+            ////Console.WriteLine("What is the distance to " + city2 + "?");
+            ////city2Distance = int.Parse(Console.ReadLine());
+            ////Console.WriteLine("What is the distance to Nuceria?");
+            ////city3Distance = int.Parse(Console.ReadLine());
 
             //if ((city1Distance <= 125)  && ((city1Distance) < city2Distance) && (city1Distance < city3Distance))
             //{
@@ -119,54 +119,85 @@ namespace HelloWorld
             //}
 
 
-            //Part twelve Parse examples
-            Console.WriteLine("What is your rank soldier?");
-            string rank = Console.ReadLine();
+            ////Part twelve Parse examples
+            //Console.WriteLine("What is your rank soldier?");
+            //string rank = Console.ReadLine();
 
-            Console.WriteLine("What is your age soldier?");
-            int age = int.Parse(Console.ReadLine());
+            //Console.WriteLine("What is your age soldier?");
+            //int age = int.Parse(Console.ReadLine());
 
-            Console.WriteLine("What is your job soldier?");
-            string job = Console.ReadLine();
+            //Console.WriteLine("What is your job soldier?");
+            //string job = Console.ReadLine();
 
-            if ((rank == "officer") || (age <= 26))
-            {
-                Console.WriteLine("Get your gear, kiss your family goodbye, put on your marching boots.");
-            }
-            else if ((job == "cook") || (age >= 26))
-            {
-                Console.WriteLine("My army has to eat. Pack your pots and pans.");
-            }
-            else
-            {
-                Console.WriteLine("Sorry you are staying home.");
-            }
+            //if ((rank == "officer") || (age <= 26))
+            //{
+            //    Console.WriteLine("Get your gear, kiss your family goodbye, put on your marching boots.");
+            //}
+            //else if ((job == "cook") || (age >= 26))
+            //{
+            //    Console.WriteLine("My army has to eat. Pack your pots and pans.");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Sorry you are staying home.");
+            //}
 
-            switch (job)
-            {
-                case "infantry":
-                    Console.WriteLine("You will carry a sword.");
-                    break;
+            //switch (job)
+            //{
+            //    case "infantry":
+            //        Console.WriteLine("You will carry a sword.");
+            //        break;
 
-                case "archers":
-                    Console.WriteLine("You will carry a now and arrow");
-                    break;
+            //    case "archers":
+            //        Console.WriteLine("You will carry a now and arrow");
+            //        break;
 
-                case "supply":
-                    Console.WriteLine("You will carry parts and pans.");
-                    break;
+            //    case "supply":
+            //        Console.WriteLine("You will carry parts and pans.");
+            //        break;
 
-                case "specialist":
-                    Console.WriteLine("You will operate the catapult.");
-                    break;
+            //    case "specialist":
+            //        Console.WriteLine("You will operate the catapult.");
+            //        break;
 
-                default:
-                    Console.WriteLine("You will ride horseback.");
-                    break;
-            }
+            //    default:
+            //        Console.WriteLine("You will ride horseback.");
+            //        break;
+            //}
+
+
+            //Part thirteen array examples
+            string[] foodList = new string[5];
+            foodList[0] = "Milk";
+            foodList[1] = "Fruit";
+            foodList[2] = "Meat";
+            foodList[3] = "Wine";
+            foodList[4] = "Bread";
+            Console.WriteLine("{0}, {1}, {2}, {3}, {4}", foodList[0], foodList[1], foodList[2], foodList[3], foodList[4]);
+
+            int[] foodAmount = new int[] {1000, 100, 2000, 10000, 1500};
+            //foodAmount[0] = 1000;
+            //foodAmount[1] = 100;
+            //foodAmount[2] = 2000;
+            //foodAmount[3] = 10000;
+            //foodAmount[4] = 1500;
+
+
+            Console.WriteLine(foodList[0] + ";" + foodAmount[0] + ", " + foodList[1] + ";" + foodAmount[1] + ", " + foodList[2] + ";" + foodAmount[2] + ", " + foodList[3] + ";" + foodAmount[3] + ", " + foodList[4] + ";" + foodAmount[4]);
+
+            Console.WriteLine(foodList.Length);
+
+            string[] elements = messageTwo.Split(" ");
+            Console.WriteLine(elements[0]); //prints "I"
+            Console.WriteLine(elements[1]); // prints "am"
+            Console.WriteLine(elements[2]); // prints "Spartacus"
+
+            String myName = "Sue";
+            char[] letters = myName.ToCharArray();
+            Console.Write(letters[0]);
+            Console.Write(letters[1]);
+            Console.WriteLine(letters[2]);
             
-
-
         }   
     }
 }
