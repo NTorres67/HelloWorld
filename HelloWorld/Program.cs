@@ -16,7 +16,7 @@ namespace HelloWorld
 
 
 
-            ////PART TWO set initial Spartacus attriutes
+            //PART TWO set initial Spartacus attriutes
             //int ageOne = 35;
             //int ageTwo = 45;
             //int ageThree = 80;
@@ -293,13 +293,64 @@ namespace HelloWorld
             //}
 
 
-            //PART SIXTEEN
+            //PART SIXTEEN Methods
 
+            int ageOne = 35;
+            int ageTwo = 34;
+            bool isGodLikeOne = true; // I am not showing all the code.
+            bool isGodLikeTwo = false;
+            isGodLikeOne = IsGodLike(ageOne);
+            isGodLikeOne = IsGodLike(ageTwo);
+            Console.WriteLine("To say our hero is God like is " + isGodLikeOne);
+            Console.WriteLine("To say our hero is God like is " + isGodLikeTwo);
 
+        }//Closes static Main Method
 
-
-
-
+        static bool IsGodLike(int age)
+        {
+            bool status;
+            if (age % 2 == 0)
+            {
+                status = false;
+            }
+            else
+            {
+                status = true;
+            }
+            return status;
         }
+
+
+        //// Sting Method
+
+        static string Reverse(string text)
+        {
+            char[] cArray = text.ToCharArray();
+            string reverse = " ";
+            for (int i = cArray.Length - 1; i > -1; i--)
+            {
+                reverse += cArray[i];
+            }
+            return reverse;
+        }
+
+        //// Int Array Method
+
+        //static void Main(string[] args)
+        //{
+        //    Console.WriteLine("To say our hero is God like is " + isGodLikeOne);
+        //    Console.WriteLine(Reverse(messageTwo));
+        //}
+        //static int[] Reverse(int[] text)
+        //{
+        //    char[] cArray = text.ToCharArray();
+        //    string reverse = " ";
+        //    for (int i = cArray.Length - 1; i > -1; i--)
+        //    {
+        //        reverse += cArray[i];
+        //    }
+        //    return reverse;
+        //}
     }
-}
+
+}  
