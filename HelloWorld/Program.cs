@@ -10,11 +10,13 @@ namespace HelloWorld
     {
         static void Main(string[] args)
         {
-            ////Part one greeting statement
+            ////PART ONE greeting statement
             //string messageOne = "Hello World!";
             //string messageTwo = "I am Spartacus";
 
-            ////Part two set initial Spartacus attriutes
+
+
+            ////PART TWO set initial Spartacus attriutes
             //int ageOne = 35;
             //int ageTwo = 45;
             //int ageThree = 80;
@@ -27,23 +29,31 @@ namespace HelloWorld
             //char genderMale = 'M';
             //char genderFemale = 'F';
 
-            ////Part three display variable values
+
+
+            ////PART THREE display variable values
             //Console.WriteLine(messageOne);//Displays intial greeting to console
             //Console.WriteLine(messageTwo);
 
-            ////Part four mathematical operator, bool and char examples
+
+
+            ////PART FOUR mathematical operator, bool and char examples
             //Console.WriteLine(ageOne + ageTwo);//Addition example
             //Console.WriteLine(heightOne - heightTwo);//Subtraction example
             //Console.WriteLine(weightOne * weightTwo);//Multiplication example
             //Console.WriteLine(isGodLikeOne);//Bool example
             //Console.WriteLine(genderMale);//Char example
 
-            ////Part five variable reassignment
+
+
+            ////PART FIVE variable reassignment
             //ageTwo = 70;
             //heightTwo = 35.12345f;
             //weightTwo = -429.1234573f;
 
-            ////Part six mathematical operator example
+
+
+            ////PART SIX mathematical operator example
             //Console.WriteLine(ageOne + ageTwo);
             //Console.WriteLine(heightOne - heightTwo);
             //Console.WriteLine(weightOne * weightTwo);
@@ -52,7 +62,9 @@ namespace HelloWorld
             //Console.WriteLine(ageThree / ageOne);
             //Console.WriteLine(ageThree % ageOne);
 
-            ////Part seven increment and decrement operator example
+
+
+            ////PART SEVEN increment and decrement operator example
             //ageTwo = ageTwo + 1;
             //Console.WriteLine(ageTwo);
             //ageTwo++;
@@ -64,14 +76,18 @@ namespace HelloWorld
             //Console.WriteLine(40 != 40);
             //Console.WriteLine(11 < 4);
 
-            //Part eight concatenation example
+
+
+            //PART EIGHT concatenation example
             //Console.WriteLine(messageOne + " " + messageTwo + ".");
             //Console.WriteLine("I am " + ageOne + " years old, and yes it's " + isGodLikeOne + " I am godlike.");
             //Console.WriteLine("I weigh around " + weightOne + " pounds, and I am around " + heightOne + " inches tall.");
             //Console.WriteLine("I am {0} years old, and yes it's {1} I am godlike.", ageOne, isGodLikeOne);
             //Console.WriteLine("I weigh around {0} pounds, and I am around {} inches tall.", weightOne, heightOne);
 
-            //Part nine string equality examples
+
+
+            //PART NINE string equality examples
             //Console.WriteLine(messageTwo.Equals(messageOne));
             //Console.WriteLine(messageTwo.Equals("I am Spartacus"));
 
@@ -80,7 +96,9 @@ namespace HelloWorld
             //Console.WriteLine(myGreeting.ToLower());//prints "hello"
             //Console.WriteLine(myGreeting);// prints "Hello"
 
-            //Part ten string length examples
+
+
+            //PART TEN string length examples
             //int messOneLength = messageOne.Length;
             //int messTwoLength = messageTwo.Length;
 
@@ -91,7 +109,9 @@ namespace HelloWorld
 
             //Console.WriteLine("Phil said,\"You've got red on you.\"");//Writing QUOTES
 
-            ////Part eleven conditional examples
+
+
+            ////PART ELEVEN conditional examples
             ////string city1 = "Vesuvius";
             ////string city2 = "Nola";
             ////string city3 = "Nuceria";
@@ -119,7 +139,8 @@ namespace HelloWorld
             //}
 
 
-            ////Part twelve Parse examples
+
+            ////PART TWELVE Parse examples
             //Console.WriteLine("What is your rank soldier?");
             //string rank = Console.ReadLine();
 
@@ -166,22 +187,23 @@ namespace HelloWorld
             //}
 
 
-            ////Part thirteen array examples
-            string[] foodList = new string[5];
-            foodList[0] = "Milk";
-            foodList[1] = "Fruit";
-            foodList[2] = "Meat";
-            foodList[3] = "Wine";
-            foodList[4] = "Bread";
-           // Console.WriteLine("{0}, {1}, {2}, {3}, {4}", foodList[0], foodList[1], foodList[2], foodList[3], foodList[4]);
 
-            int[] foodAmount = new int[5];
-            foodAmount[0] = 1000;
-            foodAmount[1] = 100;
-            foodAmount[2] = 2000;
-            foodAmount[3] = 10000;
-            foodAmount[4] = 1500;
-            //int[] foodAmount = new int[] { 1000, 100, 2000, 10000, 1500 };//shortcut to write varibles below
+            ////PART THIRTEEN array examples
+            //string[] foodList = new string[5];
+            //foodList[0] = "Milk";
+            //foodList[1] = "Fruit";
+            //foodList[2] = "Meat";
+            //foodList[3] = "Wine";
+            //foodList[4] = "Bread";
+            //Console.WriteLine("{0}, {1}, {2}, {3}, {4}", foodList[0], foodList[1], foodList[2], foodList[3], foodList[4]);
+
+            //int[] foodAmount = new int[5];
+            //foodAmount[0] = 1000;
+            //foodAmount[1] = 100;
+            //foodAmount[2] = 2000;
+            //foodAmount[3] = 10000;
+            //foodAmount[4] = 1500;
+            ////int[] foodAmount = new int[] { 1000, 100, 2000, 10000, 1500 };//shortcut to write varibles below
             //Console.WriteLine(foodList[0] + ";" + foodAmount[0] + ", " + foodList[1] + ";" + foodAmount[1] + ", " + foodList[2] + ";" + foodAmount[2] + ", " + foodList[3] + ";" + foodAmount[3] + ", " + foodList[4] + ";" + foodAmount[4]);
 
             //Console.WriteLine(foodList.Length);
@@ -199,7 +221,7 @@ namespace HelloWorld
 
 
 
-            //// Part fourteen while loop example
+            //// PART FOURTEEN while loop example
             ////While Loop
             //string action = " ";
             //while (action != "exit")
@@ -259,16 +281,20 @@ namespace HelloWorld
             //    action = Console.ReadLine();
             //} while (action != "exit");
 
-            //Part fifteen for -ParallelLoopResult examples
-            for (int i = 0; i < foodAmount.Length; i++) {
-                Console.WriteLine(i); // if i = 0 then result = 0
-            }
+            ////PART FIFTEEN for -ParallelLoopResult examples
+            //for (int i = 0; i < foodAmount.Length; i++) {
+            //    Console.WriteLine(i); // if i = 0 then result = 0
+            //}
 
-            for (int i = 0; i < foodAmount.Length; i++)
-            {
-                Console.WriteLine("Enter a value for " + foodList[i]);
-                foodAmount[i] = int.Parse(Console.ReadLine());
-            }
+            //for (int i = 0; i < foodAmount.Length; i++) {
+            //    Console.WriteLine("Enter a value for " + foodList[i]);
+            //    foodAmount[i] = int.Parse(Console.ReadLine());
+            //    Console.WriteLine("");
+            //}
+
+
+            //PART SIXTEEN
+
 
 
 
